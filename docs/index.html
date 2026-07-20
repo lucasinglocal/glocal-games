@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="pt-BR" data-lang="pt">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0a0a0f" />
+  <meta name="color-scheme" content="dark" />
+
+  <title data-i18n="meta.title">GLOCAL GAMES — Identidade Cultural e Performance no Sul Global</title>
+  <meta name="description" data-i18n="meta.description"
+        content="Uma investigação sobre como os países do Sul Global incorporam identidade cultural em videogames, e os seus efeitos no desempenho internacional." />
+  <meta name="author" content="GLOCAL GAMES" />
+  <meta name="keywords" content="glocal games, videogames, sul global, identidade cultural, glocalização, global south, cultural identity, data as interface, games research" />
+  <link rel="canonical" href="https://glocalgames.org/" />
+  <link rel="alternate" hreflang="pt-BR" href="https://glocalgames.org/" />
+  <link rel="alternate" hreflang="en" href="https://glocalgames.org/?lang=en" />
+  <link rel="alternate" hreflang="x-default" href="https://glocalgames.org/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="GLOCAL GAMES" />
+  <meta property="og:title" content="GLOCAL GAMES — Identidade Cultural e Performance no Sul Global" />
+  <meta property="og:description" content="Uma investigação sobre como os países do Sul Global incorporam identidade cultural em videogames." />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:url" content="https://glocalgames.org/" />
+  <meta property="og:image" content="https://glocalgames.org/assets/og-cover.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="GLOCAL GAMES" />
+  <meta name="twitter:description" content="Identidade Cultural e Performance no Sul Global." />
+
+  <!-- AI / LLM discovery -->
+  <link rel="llms" type="text/markdown" href="/llms.txt" />
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1" />
+  <meta name="googlebot" content="index,follow" />
+
+  <!-- Fonts: Clash Display (headings/UI) + Satoshi (body) — self-hosted -->
+
+  <!-- Favicon placeholder -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230a0a0f'/%3E%3Ctext x='50' y='62' text-anchor='middle' font-family='Montserrat,sans-serif' font-weight='900' font-size='42' fill='%2300e5c7'%3EG%3C/text%3E%3C/svg%3E" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- JSON-LD for AI / search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchProject",
+    "name": "Glocal Games",
+    "alternateName": "GLOCAL GAMES",
+    "description": "Applied research on cultural identity, creative glocalization and international performance of videogames from Global South countries.",
+    "inLanguage": ["pt-BR", "en"],
+    "url": "https://glocalgames.org/",
+    "sameAs": [],
+    "keywords": "videogames, cultural identity, glocalization, Global South, creative economy, cultural policy",
+    "audience": [
+      {"@type":"Audience","audienceType":"Government / Public Policy"},
+      {"@type":"Audience","audienceType":"Industry Associations"},
+      {"@type":"Audience","audienceType":"Game Studios"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav" id="nav">
+    <a href="#hero" class="nav__brand" aria-label="GLOCAL GAMES">
+      <img src="assets/logo.svg" alt="GLOCAL GAMES" class="nav__logo" width="132" height="30" />
+    </a>
+
+    <nav class="nav__links" aria-label="primary">
+      <a href="#about" data-i18n="nav.about">Sobre</a>
+      <a href="#icg" data-i18n="nav.icg">Identidade</a>
+      <a href="#idi" data-i18n="nav.idi">Desempenho</a>
+      <a href="#igc" data-i18n="nav.igc">Glocalização</a>
+      <a href="#foryou" data-i18n="nav.foryou">Para você</a>
+    </nav>
+
+    <div class="nav__tools">
+      <button class="lang" id="lang-toggle" aria-label="Toggle language" type="button">
+        <span class="lang__slot" data-lang="pt">PT</span>
+        <span class="lang__sep">/</span>
+        <span class="lang__slot" data-lang="en">EN</span>
+      </button>
+      <a href="#igc" class="btn btn--sm" data-i18n="nav.cta">Explorar o Painel</a>
+      <button class="nav__burger" id="nav-burger" aria-label="Open menu" aria-expanded="false" type="button">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile drawer (mirrors nav__links) -->
+  <nav class="nav__drawer" id="nav-drawer" aria-label="mobile">
+      <a href="#about" data-i18n="nav.about">Sobre</a>
+      <a href="#icg" data-i18n="nav.icg">Identidade</a>
+      <a href="#idi" data-i18n="nav.idi">Desempenho</a>
+      <a href="#igc" data-i18n="nav.igc">Glocalização</a>
+      <a href="#foryou" data-i18n="nav.foryou">Para você</a>
+  </nav>
+
+  <!-- ===================== 01 HERO ===================== -->
+  <section class="hero" id="hero" data-section="01">
+    <canvas id="hero-3d" class="hero__canvas" aria-hidden="true"></canvas>
+
+    <div class="hero__grid" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="hero__meta">
+        <span class="section-tag">
+          <span class="section-tag__num">01</span>
+          <span class="section-tag__lbl" data-i18n="hero.tag">Intro</span>
+        </span>
+      </div>
+
+      <h1 class="hero__title" data-split>
+        <span class="line"><span data-i18n="hero.title1">GLOCAL</span></span>
+        <span class="line hero__title--accent"><span data-i18n="hero.title2">GAMES</span></span>
+      </h1>
+
+      <p class="hero__lede" data-i18n="hero.lede">
+        Identidade cultural e performance no Sul global. Uma investigação sobre como os países
+        do Sul global incorporam identidade cultural em videogames — e os efeitos disso no
+        desempenho internacional.
+      </p>
+
+      <div class="hero__ctas">
+        <a href="#about" class="btn btn--primary" data-i18n="hero.cta1">Sobre o projeto</a>
+        <a href="/docs/methodology.pdf" class="btn btn--ghost" data-i18n="hero.cta2">Metodologia</a>
+        <a href="#integration" class="btn btn--link" data-i18n="hero.cta3">Explorar o painel →</a>
+      </div>
+
+    <div class="hero__hud">
+      <div class="hud__item"><span class="hud__k" data-i18n="hero.hud.region">Região</span><b>Sul Global</b></div>
+      <div class="hud__item"><span class="hud__k" data-i18n="hero.hud.sample">Amostra</span><b>72 Jogos</b></div>
+      <div class="hud__item"><span class="hud__k" data-i18n="hero.hud.period">Período</span><b>2011 à Fev 2026</b></div>
+      <div class="hud__item"><span class="hud__k" data-i18n="hero.hud.dims">Dimensões</span><b>ICG - IDI</b></div>
+    </div>
+
+    <div class="hero__scroll" aria-hidden="true">
+      <span data-i18n="hero.scroll">scroll</span>
+      <i></i>
+    </div>
+  </section>
+
+  <!-- ===================== METRICS STRIP ===================== -->
+  <section class="metrics" aria-label="Quick metrics">
+    <div class="metric" data-target="33">
+      <span class="metric__k" data-i18n="metrics.icg">ICG</span>
+      <b class="metric__v"><span class="count" data-to="33">0</span>,33%</b>
+      <span class="metric__c" data-i18n="metrics.icgc">Descrição</span>
+    </div>
+    <div class="metric">
+      <span class="metric__k" data-i18n="metrics.igc">IDI</span>
+      <b class="metric__v"><span class="count" data-to="45">0</span>,83%</b>
+      <span class="metric__c" data-i18n="metrics.igcc">Descrição</span>
+    </div>
+    <div class="metric metric--accent">
+      <span class="metric__k" data-i18n="metrics.idi">Indicador</span>
+      <b class="metric__v"><span class="count" data-to="45">0</span>,83%</b>
+      <span class="metric__c" data-i18n="metrics.idic">Descrição</span>
+    </div>
+  </section>
+
+  <!-- ===================== 02 CONTEXTO ===================== -->
+  <section class="section section--context" id="context" data-section="02">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">02</span><span data-i18n="ctx.tag">Contexto</span></span>
+      <h2 class="section__title" data-split data-i18n="ctx.title">O mapa da indústria está desequilibrado.</h2>
+    </div>
+    <div class="section__body two-col">
+      <p class="lede" data-i18n="ctx.lede">
+        A indústria de videogames é uma das mais lucrativas da economia criativa. Todavia, sua
+        produção e reconhecimento se concentram majoritariamente no Norte Global: apenas
+        <b>China (US$ 47 bi)</b> e <b>Estados Unidos (US$ 46,1 bi)</b> respondem por quase metade
+        do faturamento global da indústria de games.
+      </p>
+      <aside class="source">
+        <span data-i18n="ctx.source">Fonte</span>
+        <cite>Gayá &amp; Barrero Castellanos, 2025</cite>
+      </aside>
+    </div>
+
+    <div class="context-bars" aria-hidden="true">
+      <div class="cb cb--cn" style="--w:48%"><span><img class="cb__flag" src="https://flagcdn.com/w40/cn.png" alt="China">CN</span><i></i><b>$47B</b></div>
+      <div class="cb cb--us" style="--w:46%"><span><img class="cb__flag" src="https://flagcdn.com/w40/us.png" alt="United States">US</span><i></i><b>$46.1B</b></div>
+      <div class="cb cb--jp" style="--w:20%"><span><img class="cb__flag" src="https://flagcdn.com/w40/jp.png" alt="Japan">JP</span><i></i><b>$19B</b></div>
+      <div class="cb cb--kr" style="--w:8%"><span><img class="cb__flag" src="https://flagcdn.com/w40/kr.png" alt="South Korea">KR</span><i></i><b>$7B</b></div>
+      <div class="cb cb--sg" style="--w:5%"><span><img class="cb__flag" src="https://flagcdn.com/w40/sg.png" alt="Singapore">SG</span><i></i><b>$5B</b></div>
+      <div class="cb cb--br" style="--w:3.6%"><span><img class="cb__flag" src="https://flagcdn.com/w40/br.png" alt="Brazil">BR</span><i></i><b>$3.6B</b></div>
+      <div class="cb cb--mx" style="--w:3%"><span><img class="cb__flag" src="https://flagcdn.com/w40/mx.png" alt="Mexico">MX</span><i></i><b>$3B</b></div>
+      <div class="cb cb--za" style="--w:1.2%"><span><img class="cb__flag" src="https://flagcdn.com/w40/za.png" alt="South Africa">ZA</span><i></i><b>$1.2B</b></div>
+    </div>
+  </section>
+
+  <!-- ===================== 03 ABOUT ===================== -->
+  <section class="section section--about" id="about" data-section="03">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">03</span><span data-i18n="about.tag">Sobre o projeto</span></span>
+      <h2 class="section__title" data-split data-i18n="about.title">Uma interface estratégica de inteligência cultural.</h2>
+    </div>
+    <div class="section__body">
+      <p class="lede" data-i18n="about.lede">
+        <b>Glocal Games</b> é uma pesquisa aplicada que descreve os efeitos da identidade
+        cultural e da glocalização na indústria global dos videogames. Investigamos os jogos
+        produzidos por países do Sul Global como amostra empírica, construindo e analisando
+        indicadores compostos em três dimensões: <em>identidade cultural</em>,
+        <em>glocalização</em> e <em>desempenho internacional</em>.
+      </p>
+
+      <div class="pillars">
+        <article class="pillar">
+          <span class="pillar__num">ICG</span>
+          <h3 data-i18n="about.p1.h">Identidade Cultural</h3>
+          <p data-i18n="about.p1.p">Narrativa, mitologia, ambientação visual, música, linguagem, práticas sociais e identidade contemporânea.</p>
+        </article>
+        <article class="pillar">
+          <span class="pillar__num">IDI</span>
+          <h3 data-i18n="about.p3.h">Desempenho Internacional</h3>
+          <p data-i18n="about.p3.p">Circulação, reconhecimento (premiações, reviews) e engajamento (base de jogadores).</p>
+        </article>
+        <article class="pillar">
+          <span class="pillar__num">IGC</span>
+          <h3 data-i18n="about.p2.h">Glocalização Criativa</h3>
+          <p data-i18n="about.p2.p">Localização, multiplataforma, distribuição internacional, engines e tecnologias globais.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== 04 ICG ===================== -->
+  <section class="section section--axis" id="icg" data-section="04">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">04</span><span data-i18n="icg.tag">Identidade Cultural nos Games</span></span>
+      <h2 class="section__title" data-split data-i18n="icg.title">Como os países incorporam sua cultura nos jogos?</h2>
+    </div>
+
+    <div class="section__body two-col">
+      <p class="lede" data-i18n="icg.lede">
+        O <b>ICG</b> mede a presença e a centralidade de elementos culturais nos jogos,
+        considerando: narrativa, mitologia e história, ambientação visual, música e linguagem,
+        práticas sociais e identidade contemporânea. Explore os gráficos para entender como a
+        cultura se distribui por país, gênero e período.
+      </p>
+      <aside class="top-insight">
+        <span class="top-insight__k" data-i18n="common.insight">Top Insight</span>
+        <p data-i18n="icg.insight">Nem toda referência cultural tem o mesmo peso. Alguns jogos usam a cultura como estética superficial; outros estruturam toda sua experiência a partir dela.</p>
+      </aside>
+    </div>
+
+      <div class="flourish-embed flourish-chart" data-src="story/3699856">
+      <script src="https://public.flourish.studio/resources/embed.js"></script><noscript>
+        <img src="https://public.flourish.studio/story/3699856/thumbnail" width="100%" alt="visualization" />
+      </noscript>
+    </div>
+  
+
+  <!-- ===================== 05 IGC ===================== -->
+  <section class="section section--axis" id="idi" data-section="06">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">05</span><span data-i18n="idi.tag">Desempenho Internacional</span></span>
+      <h2 class="section__title" data-split data-i18n="idi.title">Qual é a performance desses jogos fora de seus países?</h2>
+    </div>
+
+    <div class="section__body two-col">
+      <p class="lede" data-i18n="idi.lede">
+        O <b>IDI</b> é composto por três dimensões: <em>circulação</em> (plataformas, idiomas,
+        mercados), <em>reconhecimento</em> (avaliações, premiações) e <em>engajamento</em>
+        (reviews, base estimada de jogadores).
+      </p>
+      <aside class="top-insight">
+        <span class="top-insight__k" data-i18n="common.insight">Top Insight</span>
+        <p data-i18n="idi.insight">Nem todo jogo culturalmente forte é internacionalmente forte. Mas alguns são.</p>
+      </aside>
+    </div>
+
+    <div class="flourish-embed flourish-chart" data-src="story/3707950">
+      <script src="https://public.flourish.studio/resources/embed.js"></script><noscript>
+      <img src="https://public.flourish.studio/story/3707950/thumbnail" width="100%" alt="visualization" /></noscript>
+    </div>
+
+  </section>
+    
+
+  <!-- ===================== 06 IDI ===================== -->
+  <section class="section section--axis" id="igc" data-section="05">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">06</span><span data-i18n="igc.tag">Glocalização Criativa</span></span>
+      <h2 class="section__title" data-split data-i18n="igc.title">Os jogos conseguem traduzir o local para o global?</h2>
+    </div>
+
+    <div class="section__body two-col">
+      <p class="lede" data-i18n="igc.lede">
+        Ter identidade cultural forte não é suficiente. É preciso torná-la inteligível e
+        circulável internacionalmente. O <b>IGC</b> mede: estratégias de localização (idiomas
+        e adaptação), presença multiplataforma, distribuição internacional, uso de engines e
+        tecnologias globais.
+      </p>
+      <aside class="top-insight">
+        <span class="top-insight__k" data-i18n="common.insight">Top Insight</span>
+        <p data-i18n="igc.insight">A cultura precisa dialogar com o mundo para circular.</p>
+      </aside>
+    </div>
+    
+    <div class="flourish-embed flourish-chart" data-src="story/3700055">
+        <script src="https://public.flourish.studio/resources/embed.js"></script><noscript>
+        <img src="https://public.flourish.studio/story/3700055/thumbnail" width="100%" alt="visualization"/></noscript>
+    </div>    
+  </section>
+
+
+
+  <!-- ===================== 07 INTEGRATION ===================== -->
+  <section class="section section--integration" id="integration" data-section="07">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">07</span><span data-i18n="int.tag">Integração dos Índices</span></span>
+      <h2 class="section__title" data-split data-i18n="int.title">A presença cultural gera retorno econômico?</h2>
+    </div>
+
+    <div class="section__body">
+      <p class="lede" data-i18n="int.lede">
+        Aqui cruzamos os três indicadores — <b>ICG</b>, <b>IGC</b> e <b>IDI</b>. O objetivo é
+        testar empiricamente se jogos culturalmente densos apresentam melhor desempenho
+        internacional.
+      </p>
+    </div>
+
+    <div class="flourish-embed flourish-radar" data-src="visualisation/29274229">
+      <script src="https://public.flourish.studio/resources/embed.js"></script><noscript>
+        img src="https://public.flourish.studio/visualisation/29274229/thumbnail" width="100%" alt="radar visualization" /></noscript>
+    </div>
+  </section>
+
+  <!-- ===================== 08 CASES ===================== -->
+  <section class="section section--cases" id="cases" data-section="08">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">08</span><span data-i18n="cases.tag">Glocalização em prática</span></span>
+      <h2 class="section__title" data-split data-i18n="cases.title">Casos exemplares.</h2>
+    </div>
+
+    <p class="lede" data-i18n="cases.lede">
+      Nem tudo é número. Apresentamos aqui jogos que ilustram como a glocalização opera na
+      prática.
+    </p>
+
+    <div class="cases-grid">
+      <article class="case">
+        <div class="case__cover">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/907760/library_600x900.jpg" alt="Árida: Backland's Awakening cover" loading="lazy" />
+        </div>
+        <h3 class="case__name">Árida</h3>
+        <span class="case__meta">BR · 2019</span>
+        <p class="case__desc" data-i18n="cases.c1">Sertão nordestino como experiência central — sobrevivência, memória e cultura.</p>
+      </article>
+
+      <article class="case">
+        <div class="case__cover">
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1491670/capsule_616x353.jpg?t=1775149556" alt="Venba cover" loading="lazy"/>
+        </div>
+        <h3 class="case__name">Venba</h3>
+        <span class="case__meta">CA · 2023</span>
+        <p class="case__desc">Um jogo narrativo de culinária sobre uma família de imigrantes indianos e suas receitas ancestrais.</p>
+      </article>
+    
+      
+      <article class="case">
+        <div class="case__cover">
+          <img src="https://nyamakop.co.za/wp-content/uploads/2025/06/Relooted_Branded-key-art-584p-x-800p.png" alt="Relooted cover" loading="lazy"/>
+        </div>
+        <h3 class="case__name">Relooted</h3>
+        <span class="case__meta">ZA · 2026</span>
+        <p class="case__desc">Aventura focada na repatriação de artefatos africanos e na reconexão com a herança do continente.</p>
+      </article>
+
+    <article class="case">
+        <div class="case__cover">
+          <img src="https://galinhaviajante.com.br/wp-content/uploads/2024/12/imagem_2024-12-07_140937461.png" alt="Hell Clock cover" loading="lazy" />
+        </div>
+        <h3 class="case__name">Hell Clock</h3>
+        <span class="case__meta">BR · 2025</span>
+        <p class="case__desc">Uma experiência narrativa que explora o folclore e os símbolos culturais do Nordeste brasileiro.</p>
+    </article>
+
+    <article class="case">
+          <div class="case__cover">
+            <img src="https://cdn1.epicgames.com/salesEvent/salesEvent/EGS_Tunche_LeapGameStudios_S2_1200x1600-2d1af97ecf155b591bb873485059938f" alt="Tunche cover" loading="lazy" />
+          </div>
+          <h3 class="case__name">Tunche</h3>
+          <span class="case__meta">PE · 2021</span>
+          <p class="case__desc">Um jogo de ação desenhado à mão que explora os espíritos e mitos da floresta amazônica.</p>
+    </article>
+
+    <article class="case">
+        <div class="case__cover">
+          <img src="https://media.indiedb.com/images/games/1/79/78722/Boxshot1.png" alt="Island of Caliph cover" loading="lazy"/>
+        </div>
+        <h3 class="case__name">Island of Caliph</h3>
+        <span class="case__meta">EUA · 2023</span>
+        <p class="case__desc">RPG de ação que explora o folclore do Oriente Médio e as lendas da mitologia islâmica.</p>
+      </article>
+
+      <article class="case">
+        <div class="case__cover">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/623640/library_600x900.jpg" alt="Mulaka cover" loading="lazy" />
+        </div>
+        <h3 class="case__name">Mulaka</h3>
+        <span class="case__meta">MX · 2018</span>
+        <p class="case__desc" data-i18n="cases.c3">Cultura Tarahumara (Rarámuri) traduzida para uma aventura 3D.</p>
+      </article>
+      <article class="case">
+        <div class="case__cover">
+          <img src="https://cdn.akamai.steamstatic.com/steam/apps/730390/library_600x900.jpg" alt="Raji: An Ancient Epic cover" loading="lazy" />
+        </div>
+        <h3 class="case__name">Raji: An Ancient Epic</h3>
+        <span class="case__meta">IN · 2020</span>
+        <p class="case__desc" data-i18n="cases.c4">Mitologia hindu e arte Pahari em um action-adventure premiado.</p>
+      </article>
+    </div>
+
+    <p class="afterword" data-i18n="cases.after">
+      Esses exemplos demonstram que identidade cultural pode ser diferencial estratégico
+      quando articulada com inteligência de mercado.
+    </p>
+  </section>
+
+  <!-- ===================== 09 IMPLICATIONS ===================== -->
+  <section class="section section--impl" id="implications" data-section="09">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">09</span><span data-i18n="impl.tag">O que isso significa?</span></span>
+      <h2 class="section__title" data-split data-i18n="impl.title">Implicações.</h2>
+    </div>
+
+    <div class="impl-grid">
+      <article class="impl-card">
+        <span class="impl-card__k" data-i18n="impl.c1.k">Para políticas públicas</span>
+        <p data-i18n="impl.c1.p">Indicadores culturais podem orientar editais e programas de internacionalização.</p>
+      </article>
+      <article class="impl-card">
+        <span class="impl-card__k" data-i18n="impl.c2.k">Para desenvolvedores</span>
+        <p data-i18n="impl.c2.p">Cultura não é apenas estética: pode ser ativo competitivo.</p>
+      </article>
+      <article class="impl-card">
+        <span class="impl-card__k" data-i18n="impl.c3.k">Para associações</span>
+        <p data-i18n="impl.c3.p">É possível mensurar identidade cultural de forma replicável e integrada a modelos econométricos.</p>
+      </article>
+    </div>
+
+    <p class="impl-key" data-i18n="impl.key">Dados culturais podem dialogar com desempenho econômico.</p>
+  </section>
+
+  <!-- ===================== PARA VOCÊ ===================== -->
+  <section class="section section--foryou" id="foryou" data-section="10">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">10</span><span data-i18n="fy.tag">Para você</span></span>
+      <h2 class="section__title" data-split data-i18n="fy.title">Explore e conecte-se.</h2>
+    </div>
+
+    <p class="lede" data-i18n="fy.lede">
+      Glocal Games é um convite a repensar a posição do Sul Global na economia criativa. O
+      projeto é aberto e contínuo.
+    </p>
+
+    <div class="foryou-accordion">
+      <details class="acc">
+        <summary>
+          <span class="acc__k">01</span>
+          <span class="acc__h" data-i18n="fy.gov.h">Governo</span>
+          <span class="acc__hint" data-i18n="fy.gov.hint">Políticas públicas &amp; fomento</span>
+        </summary>
+        <div class="acc__body">
+          <p data-i18n="fy.gov.p">Use os indicadores para orientar editais, fomento à internacionalização, inteligência cultural e diplomacia criativa.</p>
+          <a class="btn btn--ghost btn--sm" href="/docs/glocal-gov-brief.pdf" data-i18n="fy.gov.cta">Brief para gestores públicos</a>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>
+          <span class="acc__k">02</span>
+          <span class="acc__h" data-i18n="fy.assoc.h">Associações</span>
+          <span class="acc__hint" data-i18n="fy.assoc.hint">Benchmarks setoriais</span>
+        </summary>
+        <div class="acc__body">
+          <p data-i18n="fy.assoc.p">Integre os índices a modelos econométricos e estudos de ecossistema para representar o setor junto a governos e investidores.</p>
+          <a class="btn btn--ghost btn--sm" href="/docs/glocal-assoc-brief.pdf" data-i18n="fy.assoc.cta">Brief para associações</a>
+        </div>
+      </details>
+
+      <details class="acc">
+        <summary>
+          <span class="acc__k">03</span>
+          <span class="acc__h" data-i18n="fy.studios.h">Estúdios</span>
+          <span class="acc__hint" data-i18n="fy.studios.hint">Tendências e diferencial estratégico</span>
+        </summary>
+        <div class="acc__body">
+          <p data-i18n="fy.studios.p">Use o painel como referência competitiva: onde sua identidade cultural se posiciona, onde há espaço para glocalizar e como isso se correlaciona com performance.</p>
+          <a class="btn btn--ghost btn--sm" href="/docs/glocal-studios-brief.pdf" data-i18n="fy.studios.cta">Brief para estúdios</a>
+        </div>
+      </details>
+    </div>
+
+    <div class="fy-actions">
+      <a class="btn btn--primary" href="/data/glocal-games-dataset.csv" data-i18n="fy.dl">Baixar o dataset</a>
+      <a class="btn btn--ghost"   href="/docs/glocal-games-paper.pdf" data-i18n="fy.paper">Ler o artigo</a>
+      <a class="btn btn--ghost"   href="/docs/methodology.pdf"        data-i18n="fy.meth">Metodologia</a>
+      <a class="btn btn--link"    href="mailto:hello@glocalgames.org" data-i18n="fy.contact">Entrar em contato →</a>
+    </div>
+  </section>
+
+  <!-- ===================== PARCEIROS ===================== -->
+  <section class="section section--partners" id="partners" data-section="11">
+    <div class="section__head">
+      <span class="section-tag"><span class="section-tag__num">11</span><span data-i18n="partners.tag">Parceiros</span></span>
+      <h2 class="section__title" data-split data-i18n="partners.title">Realização e apoio.</h2>
+    </div>
+    <div class="partners-grid">
+      <div class="partner-logo"><img src="assets/partners/ufrgs.jpg" alt="UFRGS" /></div>
+      <div class="partner-logo"><img src="assets/partners/fundacao-itau.jpg" alt="Fundação Itaú Escola" /></div>
+      <div class="partner-logo"><img src="assets/partners/fce.jpg" alt="Faculdade de Ciências Econômicas" /></div>
+      <div class="partner-logo"><img src="assets/partners/ppeco.jpg" alt="PPECO" /></div>
+      <div class="partner-logo"><img src="assets/partners/neccult.jpg" alt="NECCULT" /></div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="footer__brand">
+        <img src="assets/logo.svg" alt="GLOCAL GAMES" class="footer__logo" width="148" height="34" />
+        <p data-i18n="footer.tag">Identidade cultural e performance no Sul global.</p>
+      </div>
+
+      <nav class="footer__col" aria-label="project">
+        <span class="footer__k" data-i18n="footer.project">Projeto</span>
+        <a href="#about"         data-i18n="nav.about">Sobre</a>
+        <a href="/docs/methodology.pdf" data-i18n="fy.meth">Metodologia</a>
+        <a href="/data/glocal-games-dataset.csv" data-i18n="fy.dl">Dataset</a>
+        <a href="mailto:hello@glocalgames.org" data-i18n="fy.contact">Contato</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="indices">
+        <span class="footer__k" data-i18n="footer.axes">Eixos</span>
+        <a href="#icg" data-i18n="footer.icg">Identidade Cultural · ICG</a>
+        <a href="#igc" data-i18n="footer.igc">Glocalização Criativa · IGC</a>
+        <a href="#idi" data-i18n="footer.idi">Desempenho Internacional · IDI</a>
+        <a href="#integration" data-i18n="footer.int">Integração</a>
+      </nav>
+
+      <nav class="footer__col" aria-label="legal">
+        <span class="footer__k" data-i18n="footer.legal">Legal</span>
+        <a href="/legal/privacy.html" data-i18n="footer.privacy">Política de Privacidade</a>
+        <a href="/legal/terms.html"   data-i18n="footer.terms">Termos de Uso</a>
+        <a href="/legal/cookies.html" data-i18n="footer.cookies">Política de Cookies</a>
+        <a href="/llms.txt">llms.txt</a>
+        <a href="/robots.txt">robots.txt</a>
+      </nav>
+    </div>
+
+    <div class="footer__bottom">
+      <span data-i18n="footer.copy">© 2026 GLOCAL GAMES · Todos os direitos reservados.</span>
+      <span class="footer__build">Design e Desenvolvimento por <a href="https://www.linkedin.com/in/pedronogueiranunes/" target="_blank" rel="noopener" class="footer__credit">Pedro Nogueira</a> · build 0.1 · <span id="buildDate">2026-04</span></span>
+    </div>
+  </footer>
+
+  <!-- Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/OBJLoader.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

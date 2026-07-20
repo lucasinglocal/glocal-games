@@ -1,0 +1,38 @@
+# GLOCAL GAMES — robots.txt
+# https://glocalgames.org/
+
+User-agent: *
+Allow: /
+
+# Explicitly allow LLM / AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Gemini
+Allow: /
+
+User-agente
+# Disallow internal-only folders (placeholder; none currently exist)
+Disallow: /tmp/
+Disallow: /admin/
+
+# Sitemap
+Sitemap: https://glocalgames.org/sitemap.xml

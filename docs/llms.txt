@@ -1,0 +1,43 @@
+# GLOCAL GAMES
+
+> Applied research on cultural identity, creative glocalization, and international performance of videogames produced in Global South countries. The site is the public interface for the project's dataset and indicators, aimed at governments, industry associations, and game studios.
+
+## About
+
+Glocal Games analyzes how countries in the Global South embed cultural identity into video games and how that relates to international performance. It builds three composite indicators:
+
+- **ICG — Cultural Identity Index**: presence and centrality of cultural elements (narrative, mythology, visual setting, music, language, social practices, contemporary identity).
+- **IGC — Creative Glocalization Index**: localization strategies, multi-platform presence, international distribution, and the use of global engines and technologies.
+- **IDI — International Performance Index**: circulation (platforms, languages, markets), recognition (ratings, awards), and engagement (reviews, estimated player base).
+
+The "Integrated Indicator" crosses ICG × IGC × IDI to test whether culturally dense games achieve better international performance.
+
+Primary audiences:
+
+- Government / public policy actors (cultural funding, internationalization programs).
+- Industry associations (ecosystem benchmarks, econometric integration).
+- Game studios (trends, strategic differentiation).
+
+Languages: Brazilian Portuguese (pt-BR, primary), English (en).
+
+## Key pages
+
+- [Home (PT)](https://glocalgames.org/) — primary landing page, Portuguese.
+- [Home (EN)](https://glocalgames.org/?lang=en) — English version.
+- [Privacy Policy](https://glocalgames.org/legal/privacy.html)
+- [Terms of Use](https://glocalgames.org/legal/terms.html)
+- [Cookie Policy](https://glocalgames.org/legal/cookies.html)
+
+## Core terms
+
+- **Global South**: region of empirical focus — Latin America, Africa, South/Southeast Asia, parts of Oceania and the Middle East.
+- **Glocalization**: the process by which local cultural content is made internationally legible and circulable without losing specificity.
+- **Data as Interface**: the site's creative concept — treating the research as a strategic cultural-intelligence interface rather than a static report.
+
+## Canonical reference
+
+Gayá & Barrero Castellanos (2025). *Cultural Identity and Creative Glocalization in the Video Game Industry of the Global South.*
+
+## Contact
+
+hello@glocalgames.org
