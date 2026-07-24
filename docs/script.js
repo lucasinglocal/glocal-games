@@ -16,7 +16,7 @@
   const I18N = {
     pt: {
       'meta.title':       'GLOCAL GAMES — Identidade Cultural e Performance no Sul Global',
-      'meta.description': 'Uma investigação sobre como os países do Sul Global incorporam identidade cultural em videogames, e os seus efeitos no desempenho internacional.',
+      'meta.description': 'Uma investigação sobre como os países do Sul Global incorporam identidade cultural em videogames, e os seus efeitos no desempenho internacional simbólico.',
 
       'nav.about':   'Sobre',
       'nav.icg':     'Identidade',
