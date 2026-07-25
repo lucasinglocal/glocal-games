@@ -443,6 +443,9 @@ em{ font-style: normal; color: var(--accent); }
   padding: 10px 14px; border: 1px solid var(--line-2);
   border-radius: 4px; background: var(--bg);
 }
+.flourish-chart{
+    margin-top: 64px;
+}
 
 /* ---- CASES ---- */
 .cases-grid{
