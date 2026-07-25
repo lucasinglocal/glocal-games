@@ -27,7 +27,7 @@
 
       'hero.tag':    'Intro',
       'hero.status': 'Dataset v1.0 · ao vivo',
-      'hero.title1': 'GLOCAL',
+      'hero.title1': 'TESTE',
       'hero.title2': 'GAMES',
       'hero.lede':   'Identidade cultural e performance no Sul global. Uma investigação sobre como os países do Sul global incorporam identidade cultural em videogames — e os efeitos disso no desempenho internacional.',
       'hero.cta1':   'Sobre o projeto',
