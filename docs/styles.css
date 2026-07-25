@@ -427,7 +427,7 @@ em{ font-style: normal; color: var(--accent); }
   font-family: var(--f-head); font-size: 10px;
   letter-spacing: .18em; text-transform: uppercase; color: var(--accent);
 }
-.top-insight p{ font-size: 15px; color: var(--fg); margin: 3; }
+.top-insight p{ font-size: 15px; color: var(--fg); margin: 3px; }
 
 .flourish-slot{
   margin-top: 56px; min-height: 420px;
