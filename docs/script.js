@@ -50,7 +50,9 @@
       'ctx.title':  'O mapa da indústria está desequilibrado.',
       'ctx.lede':   'A indústria de videogames é uma das mais lucrativas da economia criativa. Todavia, sua produção e reconhecimento se concentram majoritariamente no Norte Global: apenas <b>China (US$ 47 bi)</b> e <b>Estados Unidos (US$ 46,1 bi)</b> respondem por quase metade do faturamento global da indústria de games.',
       'ctx.source': 'Fonte',
-
+      'ctx.lede2': 'As assimetrias do mercado global impulsionam o fenômeno da glocalização — a fusão estratégica entre dinâmicas globais e especificidades locais. No desenvolvimento de jogos, essa tensão se traduz em duas frentes complementares: a <b>generalização<b> de mecânicas e padrões consagrados para mitigar riscos financeiros, e a <b>autenticidade cultural<b> para construir valor e diferenciação competitiva no cenário internacional.'
+      'icg.insight0': 'Glocal Games',
+   
       'about.tag':   'Sobre o projeto',
       'about.title': 'Uma interface estratégica de inteligência cultural.',
       'about.lede':  '<b>Glocal Games</b> é uma pesquisa aplicada que descreve os efeitos da glocalização na indústria global de videogames por meio de um estudo transversal que abrange o període de 2011 a fevereiro de 2026. Utilizando como amostra empírica jogos produzidos no Sul Global, a pesquisa desenvolve e aplica o Índice de Glocalização Criativa, instrumento estruturado a partir das dimenções: <em>identidade cultural</em>, e <em>desempenho internacional</em>.',
