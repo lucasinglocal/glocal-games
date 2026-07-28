@@ -50,25 +50,25 @@
       'ctx.title':  'O mapa da indústria está desequilibrado.',
       'ctx.lede':   'A indústria de videogames é uma das mais lucrativas da economia criativa. Todavia, sua produção e reconhecimento se concentram majoritariamente no Norte Global: apenas <b>China (US$ 47 bi)</b> e <b>Estados Unidos (US$ 46,1 bi)</b> respondem por quase metade do faturamento global da indústria de games.',
       'ctx.source': 'Fonte',
-      'ctx.lede2': 'As assimetrias do mercado global impulsionam o fenômeno da <b>glocalização</b>, a fusão estratégica entre dinâmicas globais e especificidades locais. No desenvolvimento de jogos, essa tensão se traduz em duas frentes: a <em>generalização</em>, adotando neutralidade estética para mitigar riscos financeiros, e a <em>autenticidade cultural</em> para construir valor e diferenciação competitiva no cenário internacional.',
+      'ctx.lede2': 'As assimetrias do mercado global impulsionam o fenômeno da <b>glocalização</b>, a fusão estratégica entre dinâmicas globais e especificidades locais. No desenvolvimento de jogos, essa tensão se traduz em duas frentes: a <em>generalização</em>, adotando neutralidade estética para mitigar riscos, e a <em>autenticidade cultural</em> para construir valor e diferenciação competitiva.',
       'common.insight0': 'Glocal Games',
-      'icg.insight0': 'jogos produzidos em contextos nacionais específicos que incorporam intencionalmente a cultura local sob padrões técnicos globais.',
+      'icg.insight0': 'Glocal Games = jogos produzidos em contextos nacionais específicos que incorporam intencionalmente a cultura local sob padrões técnicos globais.',
           
       'about.tag':   'Sobre o projeto',
       'about.title': 'Uma interface estratégica de inteligência cultural.',
-      'about.lede':  '<b>Glocal Games</b> é uma pesquisa aplicada que descreve os efeitos da glocalização na indústria global de videogames por meio de um estudo transversal que abrange o período de 2011 a fevereiro de 2026. Utilizando como amostra empírica jogos produzidos no Sul Global, a pesquisa desenvolve e aplica o Índice de Glocalização Criativa, instrumento estruturado a partir das dimensões: <em>identidade cultural</em>, e <em>desempenho internacional</em>.',
+      'about.lede':  '<b>Glocal Games</b>é uma pesquisa aplicada sobre os impactos da glocalização na indústria global de videogames, analisando lançamentos do Sul Global entre 2011 e fevereiro de 2026. A plataforma traz o Índice de Glocalização Criativa, uma ferramenta analítica desenvolvida para medir a <em>intensidade cultural</em> dos jogos e mensurar o seu <em>desempenho</em> no mercado internacional',
       'about.p1.h':  'Identidade Cultural',
-      'about.p1.p':  'Variáveis qualitativas distribuídas entre: Narrativa, Idioma, Música, Cenários, e Gameplay',
+      'about.p1.p':  'Variáveis qualitativas distribuídas entre as dimenções: Narrativa, Idioma, Música, Cenários, e Gameplay',
       'about.p2.h':  'Glocalização Criativa',
       'about.p2.p':  'Média aritmética ponderada dos dois sub indicadores: identidade cultural e desempenho internacional',
       'about.p3.h':  'Desempenho Internacional',
-      'about.p3.p':  'Dados empíricos agrupados em: Circulação, Reconhecimento, Engajamento, e Padrão Técnico.',
+      'about.p3.p':  'Dados empíricos agrupados nas dimenções: Circulação, Reconhecimento, Engajamento, e Padrão Técnico.',
 
       'common.insight': 'Top Insight',
 
       'icg.tag':     'Identidade Cultural nos Games',
       'icg.title':   'A ativação estratégica da identidade cultural nos games',
-      'icg.lede':    'O <b>ICG</b> mede a presença e a centralidade de elementos culturais nos jogos, na sua composição estética, narrativa e estrutural. Explore o gráfico para entender como a cultura é codificada nos jogos da amostra.',
+      'icg.lede':    'O <b>ICG</b> mede a presença e centralidade dos elementos culturais nos jogos. O gráfico categoriza a amostra em dois clusters: Autêntico, que usa a identidade local como ativo de diferenciação,e Genérico, focado em mecânicas universais com neutralidade estética',
       'icg.insight': 'A cultura nos games não é um reflexo geográfico automático, mas uma escolha estratégica de posicionamento entre a neutralidade estética e a diferenciação cultural',
 
       'igc.tag':     'Glocalização Criativa',
@@ -78,7 +78,7 @@
 
       'idi.tag':     'Desempenho Internacional',
       'idi.title':   'A assimetria estrutural do desempenho internacional simbólico',
-      'idi.lede':    'O <b>IDI</b> mensura a eficácia na transposição de fronteiras culturais e geográficas, através da circulação em plataformas, reconhecimento institucional, engajamento de comunidade, e padrão técnico e estético.',
+      'idi.lede':    'O <b>IDI</b> mensura a eficácia em transpor fronteiras culturais e geográfica. Os resultados dividem a amostra em dois clusters: Alta Internacionalização, composto por títulos de escala global com alta conversão crítica e comercial, e Baixa Inserção, que reflete o padrão da indústria local, com indicadores de desempenho ligeiramente abaixo da média geral.',
       'idi.insight': 'O efeito de rede entre premiações, vendas, e presença multiplataforma é o divisor de águas para alcançar picos expressivos de desempenho',
 
       'int.tag':   'Ficha Técnica Interativa',
