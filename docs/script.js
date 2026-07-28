@@ -65,7 +65,6 @@
       'about.p3.p':  'Dados empíricos agrupados em: Circulação, Reconhecimento, Engajamento, e Padrão Técnico.',
 
       'common.insight': 'Top Insight',
-      'common.insight2': 'Glocal Games'
 
       'icg.tag':     'Identidade Cultural nos Games',
       'icg.title':   'A ativação estratégica da identidade cultural nos games',
