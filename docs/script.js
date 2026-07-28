@@ -37,7 +37,7 @@
       'hero.hud.sample': 'Amostra',
       'hero.hud.period': 'Período',
       'hero.hud.dims':   'Dimensões',
-      'hero.scroll':     'role',
+      'hero.scroll':     'rolar',
 
       'metrics.icg':  '% da amostra com maior ICG',
       'metrics.icgc': 'Identidade Cultural',
@@ -50,17 +50,17 @@
       'ctx.title':  'O mapa da indústria está desequilibrado.',
       'ctx.lede':   'A indústria de videogames é uma das mais lucrativas da economia criativa. Todavia, sua produção e reconhecimento se concentram majoritariamente no Norte Global: apenas <b>China (US$ 47 bi)</b> e <b>Estados Unidos (US$ 46,1 bi)</b> respondem por quase metade do faturamento global da indústria de games.',
       'ctx.source': 'Fonte',
-      'ctx.lede2': 'As assimetrias do mercado global impulsionam o fenômeno da <b>glocalização</b>, a fusão estratégica entre dinâmicas globais e especificidades locais. No desenvolvimento de jogos, essa tensão se traduz em duas frentes: a <em>generalização</em>, adotando neutralidade estética para mitigar riscos financeiros, e a <em>autenticidade cultural</em> para construir valor e diferenciação competitiva no cenár io internacional.',
+      'ctx.lede2': 'As assimetrias do mercado global impulsionam o fenômeno da <b>glocalização</b>, a fusão estratégica entre dinâmicas globais e especificidades locais. No desenvolvimento de jogos, essa tensão se traduz em duas frentes: a <em>generalização</em>, adotando neutralidade estética para mitigar riscos financeiros, e a <em>autenticidade cultural</em> para construir valor e diferenciação competitiva no cenário internacional.',
       'common.insight0': 'Glocal Games',
-      'icg.insight0': 'jogos produzidos em contextos nacionais específicos que incorporam intencionalmente a cultura local sob padrões técnicos globais.'
+      'icg.insight0': 'jogos produzidos em contextos nacionais específicos que incorporam intencionalmente a cultura local sob padrões técnicos globais.',
           
       'about.tag':   'Sobre o projeto',
       'about.title': 'Uma interface estratégica de inteligência cultural.',
-      'about.lede':  '<b>Glocal Games</b> é uma pesquisa aplicada que descreve os efeitos da glocalização na indústria global de videogames por meio de um estudo transversal que abrange o període de 2011 a fevereiro de 2026. Utilizando como amostra empírica jogos produzidos no Sul Global, a pesquisa desenvolve e aplica o Índice de Glocalização Criativa, instrumento estruturado a partir das dimenções: <em>identidade cultural</em>, e <em>desempenho internacional</em>.',
+      'about.lede':  '<b>Glocal Games</b> é uma pesquisa aplicada que descreve os efeitos da glocalização na indústria global de videogames por meio de um estudo transversal que abrange o período de 2011 a fevereiro de 2026. Utilizando como amostra empírica jogos produzidos no Sul Global, a pesquisa desenvolve e aplica o Índice de Glocalização Criativa, instrumento estruturado a partir das dimensões: <em>identidade cultural</em>, e <em>desempenho internacional</em>.',
       'about.p1.h':  'Identidade Cultural',
       'about.p1.p':  'Variáveis qualitativas distribuídas entre: Narrativa, Idioma, Música, Cenários, e Gameplay',
       'about.p2.h':  'Glocalização Criativa',
-      'about.p2.p':  'Média aritimética ponderada dos dois sub indicadores: identidade cultural e desempenho internacional',
+      'about.p2.p':  'Média aritmética ponderada dos dois sub indicadores: identidade cultural e desempenho internacional',
       'about.p3.h':  'Desempenho Internacional',
       'about.p3.p':  'Dados empíricos agrupados em: Circulação, Reconhecimento, Engajamento, e Padrão Técnico.',
 
@@ -73,7 +73,7 @@
 
       'igc.tag':     'Glocalização Criativa',
       'igc.title':   'O efeito Glocal e a natureza estrutural da cultura nos jogos',
-      'igc.lede':    'O <b>IGC</b> mensura o equilíbrio e as assimetrias ente a preservação da identidade cultural e a eficácia das estratégias de desempenho internacional dos games produzidos fora dos eixos hegemônicos',
+      'igc.lede':    'O <b>IGC</b> mensura o equilíbrio e as assimetrias entre a preservação da identidade cultural e a eficácia das estratégias de desempenho internacional dos games produzidos fora dos eixos hegemônicos',
       'igc.insight': 'Jogos com maior densidade cultural estão associados a maiores níveis médios de desempenho',
 
       'idi.tag':     'Desempenho Internacional',
@@ -125,12 +125,8 @@
       'fy.paper':    'Ler o artigo',
       'fy.meth':     'Metodologia',
       'fy.contact':  'Entrar em contato →',
-      
-      
-      
 
       'footer.tag':     'Identidade cultural e performance no Sul global.',
-
       'footer.project': 'Projeto',
       'footer.axes':    'Eixos',
       'footer.icg':     'Identidade Cultural · ICG',
@@ -171,10 +167,8 @@
 
       'metrics.icg': '% of the sample with higher ICG',
       'metrics.icgc': 'Cultural Identity',
-
       'metrics.igc': '% of the sample with higher IDI',
       'metrics.igcc': 'International Performance',
-
       'metrics.idi': 'Balanced Glocalization',
       'metrics.idic': 'of the sample reaching higher IGC',
 
@@ -188,9 +182,9 @@
       'about.lede': '<b>Glocal Games</b> is an applied research project that describes the effects of glocalization in the global video game industry through a cross-sectional study covering the period from 2011 to February 2026. Using games produced in the Global South as its empirical sample, the study develops and applies the Creative Glocalization Index, a composite indicator structured around the dimensions of <em>cultural identity</em> and <em>international performance</em>.',
       'about.p1.h': 'Cultural Identity',
       'about.p1.p': 'Qualitative variables distributed across Narrative, Language, Music, Setting, and Gameplay.',
-      'about.p2.h':  'Creative Glocalization',
+      'about.p2.h': 'Creative Glocalization',
       'about.p2.p':'Weighted arithmetic mean of the two sub-indicators: cultural identity and international performance.',
-      'about.p3.h':  'International Performance',
+      'about.p3.h': 'International Performance',
       'about.p3.p':'Empirical data grouped into Circulation, Recognition, Engagement, and Technical Standard.',
 
       'common.insight': 'Top Insight',
@@ -230,7 +224,7 @@
       'impl.c3.k':   'For associations',
       'impl.c3.p':   'It is possible to map local asymmetries and identify windows of opportunity.',
       'impl.key':    'Measuring culture means transforming identity heritage into a driver of creative autonomy.',
-       
+        
       'fy.tag':        'For you',
       'fy.title':      'Strategic Guidelines.',
       'fy.lede':       'Glocal Games is an invitation to rethink the position of the Global South in the creative economy. The project is open and ongoing.',
@@ -272,8 +266,6 @@
   const LANG_KEY = 'glocal.lang';
 
   const getInitialLang = () => {
-    // Portuguese (Brazil) is ALWAYS the default.
-    // Only switch to EN if explicitly requested via URL or previously saved by the user.
     const url = new URLSearchParams(location.search).get('lang');
     if (url === 'en' || url === 'pt') return url;
     const stored = localStorage.getItem(LANG_KEY);
@@ -305,7 +297,6 @@
     localStorage.setItem(LANG_KEY, lang);
   };
 
-  // Init language as early as possible (before paint)
   applyLang(getInitialLang());
 
   document.addEventListener('click', (e) => {
@@ -315,14 +306,11 @@
     applyLang(current === 'pt' ? 'en' : 'pt');
   });
 
-
   /* -------------------------------------------------
-     3. GSAP reveals & text staggers
+     2. GSAP reveals & text staggers
   ------------------------------------------------- */
   function initGSAP(){
     if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined'){
-      // Fallback: if GSAP fails to load, make sure split-line headings are still visible
-      // (they are hidden by default via transform: translateY(110%) in CSS).
       document.querySelectorAll('[data-split] .line > span').forEach(s => {
         s.style.transform = 'translateY(0)';
       });
@@ -330,22 +318,17 @@
     }
     gsap.registerPlugin(ScrollTrigger);
 
-    // Nav scrolled state
     ScrollTrigger.create({
       start: 'top -10',
       onUpdate: self => {
-        document.getElementById('nav').classList.toggle('is-scrolled', self.scroll() > 10);
+        const nav = document.getElementById('nav');
+        if (nav) nav.classList.toggle('is-scrolled', self.scroll() > 10);
       }
     });
 
-    // Split any heading with [data-split] into lines and animate
     document.querySelectorAll('[data-split]').forEach(el => {
       const lines = el.querySelectorAll('.line > span');
       if (lines.length){
-        // Hero title is already in viewport on load → animate immediately,
-        // without ScrollTrigger (which can fail to fire for above-the-fold content).
-        // Also: animate opacity + small offset only (hero title baseline is visible in CSS),
-        // so a failed animation never leaves the headline blank.
         const isHero = el.classList.contains('hero__title') || el.closest('.hero');
         if (isHero){
           gsap.from(lines, {
@@ -363,8 +346,6 @@
         }
         return;
       }
-      // Auto split (word-level) if no .line markup present
-      // Use opacity+y fade to avoid descender clipping from overflow:hidden
       const text = el.innerText.trim();
       const words = text.split(/\s+/);
       el.innerHTML = words.map(w =>
@@ -376,8 +357,6 @@
           scrollTrigger: { trigger: el, start: 'top 85%' } });
     });
 
-    // Generic fade-in for primary content blocks
-    // Exclude children of stagger-grid parents to avoid double-animation
     const blocks = document.querySelectorAll('.lede, .hud__item, .metric, .top-insight, .flourish-slot, .acc, .fy-actions, .context-bars, .impl-card');
     blocks.forEach(b => {
       gsap.fromTo(b,
@@ -388,7 +367,6 @@
         });
     });
 
-    // Stagger groups inside grids (handles .pillar and .case — not double-animated above)
     gsap.utils.toArray('.pillars').forEach(grid => {
       gsap.fromTo(grid.children,
         { y: 40, opacity: 0 },
@@ -402,7 +380,6 @@
           scrollTrigger: { trigger: grid, start: 'top 85%' } });
     });
 
-    // Context bars animate widths on enter
     gsap.utils.toArray('.context-bars .cb').forEach((bar, i) => {
       ScrollTrigger.create({
         trigger: bar, start: 'top 90%',
@@ -412,7 +389,7 @@
   }
 
   /* -------------------------------------------------
-     4. Number counters
+     3. Number counters
   ------------------------------------------------- */
   function initCounters(){
     document.querySelectorAll('.count').forEach(el => {
@@ -423,7 +400,6 @@
           onEnter: () => animateNumber(el, 0, to, 1400)
         });
       } else {
-        // IntersectionObserver fallback — only fires when element enters viewport
         const io = new IntersectionObserver((entries) => {
           entries.forEach(entry => {
             if (!entry.isIntersecting) return;
@@ -447,8 +423,7 @@
   }
 
   /* -------------------------------------------------
-     5. Three.js hero — abstract wireframe globe + particles
-        (placeholder — easy to swap with a real asset later)
+     4. Three.js hero — abstract wireframe globe + particles
   ------------------------------------------------- */
   function initHero3D(){
     if (typeof THREE === 'undefined') return;
@@ -461,18 +436,15 @@
     const camera = new THREE.PerspectiveCamera(45, 1, 0.1, 100);
     camera.position.set(0, 0, 4.2);
 
-    // wireframe globe (icosahedron)
     const globeGeo  = new THREE.IcosahedronGeometry(1.4, 2);
     const globeMat  = new THREE.MeshBasicMaterial({ color: 0x00e5c7, wireframe: true, transparent: true, opacity: 0.35 });
     const globe     = new THREE.Mesh(globeGeo, globeMat);
     scene.add(globe);
 
-    // inner solid — very dim
     const innerMat  = new THREE.MeshBasicMaterial({ color: 0x0a1a1a, transparent: true, opacity: 0.6 });
     const inner     = new THREE.Mesh(new THREE.IcosahedronGeometry(1.35, 2), innerMat);
     scene.add(inner);
 
-    // particle field
     const pCount = 900;
     const positions = new Float32Array(pCount * 3);
     for (let i = 0; i < pCount; i++){
@@ -489,7 +461,6 @@
     const points = new THREE.Points(pGeo, pMat);
     scene.add(points);
 
-    // second, smaller, magenta particle ring
     const qCount = 260;
     const qPos = new Float32Array(qCount * 3);
     for (let i = 0; i < qCount; i++){
@@ -507,7 +478,6 @@
     ring.rotation.x = Math.PI * 0.2;
     scene.add(ring);
 
-    // Lighting for matte-plastic controller
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.35);
     scene.add(ambientLight);
     const dirLight = new THREE.DirectionalLight(0xffffff, 0.9);
@@ -517,24 +487,15 @@
     rimLight.position.set(-4, -2, -3);
     scene.add(rimLight);
 
-    // Controller — built from primitives
     const cMat = new THREE.MeshPhongMaterial({
       color: 0xff4d7e,
       shininess: 12,
       specular: new THREE.Color(0x1a0008),
     });
-    const cMatDark = new THREE.MeshPhongMaterial({
-      color: 0xcc1a4a,
-      shininess: 8,
-      specular: new THREE.Color(0x0a0005),
-    });
 
-    // Controller pivot — mirrors ring's tilt exactly.
-    // We sync rotation.y to ring.rotation.y each tick so the
-    // controller stays locked on the same orbital path.
     const ctrlPivot = new THREE.Group();
-    ctrlPivot.rotation.x = ring.rotation.x; // same tilt as ring
-    ctrlPivot.rotation.y = Math.PI * 0.25;  // start offset so it's visible
+    ctrlPivot.rotation.x = ring.rotation.x;
+    ctrlPivot.rotation.y = Math.PI * 0.25;
     scene.add(ctrlPivot);
 
     let ctrlWrapper = null;
@@ -557,7 +518,6 @@
 
         const wrapper = new THREE.Group();
         wrapper.add(obj);
-        // Place at the ring's orbital radius along the pivot's X axis
         wrapper.position.set(1.9, 0, 0);
         ctrlPivot.add(wrapper);
         ctrlWrapper = wrapper;
@@ -573,7 +533,6 @@
     requestAnimationFrame(resize);
     window.addEventListener('resize', resize);
 
-    // parallax with pointer
     const mouse = { x: 0, y: 0, tx: 0, ty: 0 };
     window.addEventListener('mousemove', e => {
       mouse.tx = (e.clientX / window.innerWidth  - 0.5) * 0.6;
@@ -590,9 +549,9 @@
       ring.rotation.y    += 0.003;
       ctrlPivot.rotation.y = ring.rotation.y + Math.PI * 0.25;
       if (ctrlWrapper){
-        ctrlWrapper.rotation.x += 0.004;   // slow forward tumble
-        ctrlWrapper.rotation.y += 0.0025;  // gentle yaw
-        ctrlWrapper.rotation.z += 0.003;   // lazy roll
+        ctrlWrapper.rotation.x += 0.004;
+        ctrlWrapper.rotation.y += 0.0025;
+        ctrlWrapper.rotation.z += 0.003;
       }
       scene.rotation.y   = mouse.x * 0.6;
       scene.rotation.x   = mouse.y * 0.3;
@@ -603,7 +562,7 @@
   }
 
   /* -------------------------------------------------
-     6. Boot
+     5. Navigation & Smooth Anchor Scroll
   ------------------------------------------------- */
   function initMobileNav(){
     const burger = document.getElementById('nav-burger');
@@ -617,7 +576,6 @@
       document.body.style.overflow = open ? 'hidden' : '';
     });
 
-    // Close drawer when any link inside it is clicked
     drawer.querySelectorAll('a').forEach(a => {
       a.addEventListener('click', () => {
         drawer.classList.remove('is-open');
@@ -631,29 +589,37 @@
   function initAnchorScroll(){
     document.querySelectorAll('a[href^="#"]').forEach(a => {
       a.addEventListener('click', (e) => {
-        const id = a.getAttribute('href');
-        if (id.length <= 1) return;
-        const target = document.querySelector(id);
+        const href = a.getAttribute('href');
+        if (href === '#' || href === '') return;
+        const target = document.querySelector(href);
         if (!target) return;
+
         e.preventDefault();
-        const top = target.getBoundingClientRect().top + window.scrollY - 70;
-        window.scrollTo({ top, behavior: 'smooth' });
+        const navHeight = document.getElementById('nav')?.offsetHeight || 70;
+        const targetPosition = target.getBoundingClientRect().top + window.scrollY - navHeight;
+
+        window.scrollTo({
+          top: targetPosition,
+          behavior: 'smooth'
+        });
       });
     });
   }
 
-  document.addEventListener('DOMContentLoaded', () => {
+  /* -------------------------------------------------
+     6. Boot
+  ------------------------------------------------- */
+  function init(){
     initGSAP();
-    initAnchorScroll();
     initCounters();
     initHero3D();
     initMobileNav();
+    initAnchorScroll();
+  }
 
-    const bd = document.getElementById('buildDate');
-    if (bd){
-      const d = new Date();
-      bd.textContent = d.getFullYear() + '-' + String(d.getMonth()+1).padStart(2,'0');
-    }
-  });
-
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
 })();
