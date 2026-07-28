@@ -359,6 +359,7 @@ em{ font-style: normal; color: var(--accent); }
 
 .context-bars{
   margin-top: 56px; display: grid; gap: 10px;
+  margin-bottom: 56px; 
   padding: 28px; border: 1px solid var(--line);
   border-radius: var(--rad); background: var(--bg-2);
 }
